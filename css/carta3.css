@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{ 
+    text-decoration: none; 
+    color: #000000;
+    font-size: 30px;
+   }
+body{
+    background-color: #2a623d;
+    background-size: 100%;
+    height: 60px;
+     
+}
+.ss{
+    display: grid;
+    grid-template-columns: repeat(3, 10%);  
+    align-items: center;
+    justify-content: center;
+  }
+  .header{
+    background-color: #aaaaaa;
+    height: 90px;
+    width: auto;   
+  }
+  
+ .img{
+    height: 80px;
+    width: 80px;
+ 
+ }
+ .img2{
+    width: 130px;
+    height: 70px;
+ }
+ 
+ .text{
+    font-size: 30px;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .question{
+    text-align: center;
+    background-color: #aaaaaa;
+    margin: 10%;
+    padding: 2%; 
+    border-radius:  10px 20px 10px 20px;
+    opacity: .8;
+}
+p{
+margin-top: 2%;
+color: #1a472a;
+}
+.one{
+    text-align: center;
+    font-size: 40px;
+    color: 	#000000;
+}
+.pl{
+    margin-top: 2%;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px 10px 20px 10px;
+ }
+ .tow{
+    background-color: #126d32;
+    border-radius: 60px;
+    
+ }
+.pr{
+    margin-top: 5%;
+    font-size: 40px;
+    justify-content: center;
+    color: #aaaaaa;
+}
+.oppa{
+    margin-top: 2%;
+    font-size: 30px;
+    color: #aaaaaa;
+}
+.wor{
+    text-align: center;
+    margin-top: 2%;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #1a472a;
+    border-color: #aaaaaa;
+    border: none;
+    color: #aaaaaa;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

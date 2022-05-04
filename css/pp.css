@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{ 
+    text-decoration: none; 
+   }
+   
+body{
+    background-color: #2a623d;
+    background-size: 100%;
+    height: 60px;
+     
+}
+/* Шапка*/
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #aaaaaa;
+  height: 180px;
+  width: auto;   
+}
+/*Логотип*/
+.aaa{
+  height: 160px;
+  width: 160px;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 90px;
+}
+/*Меню перемещения*/
+.ss{
+  display: grid;
+  grid-template-columns: repeat(3, 30%);  
+  align-items: center;
+  justify-content: center;
+} 
+.aa{
+  height: 120px;
+  width: 120px;
+  margin-right: 25px;
+  margin-top: 5%;
+  border-radius: 60px;
+}
+.mag{
+   text-align: end;
+}
+.img{
+    height: 80px;
+    width: 80px;
+
+}
+.img2{
+    width: 190px;
+    height: 120px;
+}
+
+.text{
+    font-size: 30px;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ 
+/*Кнопки*/
+.bottom{
+    margin-top: 20%;
+    text-align: center;
+}
+
+a.button2, a.button2:before {
+    width: 500px;
+    height: 30px;
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 90px;
+    border: solid white;
+    border-width: 3px 10px;
+    outline: none;
+    opacity: 1;
+    transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+  } 
+  a.button2 {
+    position: relative;
+    padding: calc(8px + 3px - 1px) calc(15px + 10px - 1px);
+    border: 1px solid white;
+    background: linear-gradient(to left, 	#000000 1%, #fff 3%, #5d5d5d 8%, rgba(255,255,255,.3) 50%, #aaaaaa  92%, #fff 97%, rgb(62,153,239) 99%) no-repeat;
+  }
+  a.button2:before {
+    content:  "Пройти викторину";
+    position:  absolute; 
+    bottom: -7px;
+    left: -1px;
+    width: calc(100% - (15px + 10px - 1px)*2);
+    background: #fff linear-gradient(#000000, #5d5d5d 60%, #aaaaaa);
+    box-shadow: 0 10px 18px rgba(0,0,0,.5);
+  }
+  a.button2:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+  }
+  a.button2:hover:before {
+    border-color: #1a472a;
+    background: #fff linear-gradient(#1a472a, #2a623d 60%, 	#aaaaaa);
+  }
+  a.button2:focus,
+  a.button2:active {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+  }
+   
